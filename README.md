@@ -1,5 +1,5 @@
 # dd
-onst { test, expect } = require('@playwright/test');
+const { test, expect } = require('@playwright/test');
 const LoginPage = require('../pages/LoginPage');
 
 test.only('login page opens', async ({ page }) => {
